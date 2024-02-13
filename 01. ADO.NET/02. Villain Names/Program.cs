@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 
-SqlConnection connection = new SqlConnection("Server=DESKTOP-MK61FRQ\\SQLEXPRESS;Database=MinionsDB;Integrated Security=True");
+SqlConnection connection = new SqlConnection("Server=.;Database=MinionsDB;Integrated Security=True");
 connection.Open();
 
 using (connection)
